@@ -1,0 +1,36 @@
+{
+  "name": "world-wide-economy",
+  "version": "1.0.0",
+  "description": "This project aims to address the challenges posed by the current economic, political, and social instability in various regions, leading to increased migration of individuals seeking better opportunities. As a technological solution catering to this niche market, I present a high-quality RESTful application. The application provides a comprehensive set of indicators, covering each member state of the United Nations, with annual data spanning at least 15 years, and preferably more. These indicators empower users to make informed decisions by facilitating meaningful comparisons and insights related to migration. My REST API strives to offer valuable and relevant information to support individuals considering migration and improve their life prospects.",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AllanMoralesPrado/world-wide-economy.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "ONU",
+    "macroeconomics",
+    "indicators"
+  ],
+  "author": "AllanMoralesPrado",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AllanMoralesPrado/world-wide-economy/issues"
+  },
+  "homepage": "https://github.com/AllanMoralesPrado/world-wide-economy#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
